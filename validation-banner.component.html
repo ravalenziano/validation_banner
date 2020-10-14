@@ -1,0 +1,5 @@
+<div [ngClass]="{'validationBanner': true, 'validationBanner--expanded': !isHidden}" >
+  <h2>Error</h2>
+  <div>{{message}}</div>
+  <button class="dismissButton" href="#" (click)="dismiss()">Dismiss</button>
+</div>
